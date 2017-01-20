@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "587656752453",
+    "firebase_url": "https://codemozo.firebaseio.com",
+    "project_id": "codemozo",
+    "storage_bucket": "codemozo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:587656752453:android:b5c1a40f61d558ab",
+        "android_client_info": {
+          "package_name": "com.vivek.codemozo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "587656752453-6kekkfvg8dam32q3bf14e3dofm61a3gk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vivek.codemozo",
+            "certificate_hash": "F8E71B01642DE122B55FE533EBC5C34F2FAA459B"
+          }
+        },
+        {
+          "client_id": "587656752453-m382lo41ikae9arrtl1eb7444k5gvplc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAo93oJiyi-qe1bUsVCuHosGm9mznlVj90"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "587656752453-m382lo41ikae9arrtl1eb7444k5gvplc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

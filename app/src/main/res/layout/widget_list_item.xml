@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="@dimen/widget_main_padding">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/widget_item_margin"
+        android:background="@drawable/round_tv_top"
+        android:orientation="horizontal"
+        android:padding="@dimen/widget_padding">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/contest_title_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="@integer/max_lines_widget"
+                android:padding="@dimen/widget_padding"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/contest_title_text_size"
+                android:textStyle="bold"
+                tools:text="April Long Challenge" />
+
+            <TextView
+                android:id="@+id/contest_website_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryLight"
+                android:maxLines="@integer/max_lines_widget"
+                android:padding="@dimen/widget_padding"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/contest_resource_text_size"
+                tools:text="Codechef" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/resource_logo"
+            android:layout_width="@dimen/logo_size"
+            android:layout_height="@dimen/logo_size"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="@dimen/widget_item_margin"
+            android:layout_marginLeft="@dimen/widget_item_margin"
+            android:layout_marginRight="@dimen/widget_item_margin"
+            android:layout_marginStart="@dimen/widget_item_margin"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitXY"
+            android:src="@mipmap/ic_launcher" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/widget_padding">
+
+        <ImageView
+            android:id="@+id/start_image"
+            android:layout_width="@dimen/start_end_image_size"
+            android:layout_height="@dimen/start_end_image_size"
+            android:layout_gravity="center_vertical"
+            android:contentDescription="@string/start_present"
+            android:src="@mipmap/future" />
+
+        <TextView
+            android:id="@+id/start_time"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/widget_item_margin"
+            android:layout_marginStart="@dimen/widget_item_margin"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/start_end_text_size"
+            tools:text="3:00PM FRI, 11 MAY 2016" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/widget_padding">
+
+        <ImageView
+            android:id="@+id/end_image"
+            android:layout_width="@dimen/start_end_image_size"
+            android:layout_height="@dimen/start_end_image_size"
+            android:layout_gravity="center_vertical"
+            android:contentDescription="@string/end_present"
+            android:src="@mipmap/past" />
+
+        <TextView
+            android:id="@+id/end_time"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/widget_item_margin"
+            android:layout_marginStart="@dimen/widget_item_margin"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/start_end_text_size"
+            tools:text="3:00PM FRI, 11 MAY 2016" />
+    </LinearLayout>
+</LinearLayout>

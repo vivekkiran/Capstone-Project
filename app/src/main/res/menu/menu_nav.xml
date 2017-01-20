@@ -1,0 +1,65 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <group
+        android:id="@+id/contests_group"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_current_menu"
+            android:icon="@mipmap/live"
+            android:title="@string/nav_current" />
+        <item
+            android:id="@+id/nav_upcoming_menu"
+            android:icon="@mipmap/future"
+            android:title="@string/nav_upcoming" />
+        <item
+            android:id="@+id/nav_past_menu"
+            android:icon="@mipmap/past"
+            android:title="@string/nav_past" />
+    </group>
+
+    <group
+        android:id="@+id/settings_group"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_settings_menu"
+            android:icon="@mipmap/settings"
+            android:title="@string/nav_settings" />
+
+        <item
+            android:id="@+id/nav_rate_menu"
+            android:icon="@mipmap/rate"
+            android:title="@string/nav_rate" />
+
+        <item
+            android:id="@+id/nav_feedback_menu"
+            android:icon="@mipmap/feedback"
+            android:title="@string/nav_feedback" />
+
+    </group>
+
+    <group
+        android:id="@+id/about_group"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_share_menu"
+            android:icon="@mipmap/share_app"
+            android:title="@string/nav_share" />
+
+        <item
+            android:id="@+id/nav_open_source_menu"
+            android:icon="@mipmap/open_source"
+            android:title="@string/nav_open_source" />
+
+        <item
+            android:id="@+id/nav_credits_menu"
+            android:icon="@mipmap/credits"
+            android:title="@string/nav_credits" />
+
+    </group>
+
+</menu>

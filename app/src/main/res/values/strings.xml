@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name" translatable="false">CodeMozo</string>
+    <string name="splash_name" translatable="false">&lt;CodeMozo/&gt;</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="start_button_text">Lets Get Started</string>
+    <string name="title_splash_screen">Splash Screen</string>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="drawer_open">open drawer</string>
+    <string name="drawer_close">close drawer</string>
+
+    <string name="nav_current">Live</string>
+    <string name="nav_upcoming">Upcoming</string>
+    <string name="nav_past">Past</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_rate">Rate App</string>
+    <string name="nav_share">Share App</string>
+    <string name="nav_feedback">Feedback</string>
+    <string name="nav_open_source">Open Source</string>
+    <string name="nav_credits">Credits</string>
+
+    <string name="live_contests">Live Events</string>
+    <string name="upcoming_contests">Upcoming Events</string>
+    <string name="past_contest">Past Events</string>
+    <string name="detail_contest">Event Details</string>
+    <string name="todays_event">Today\'s Events</string>
+
+    <string name="nav_menu">Navigation Menu</string>
+
+    <string name="permission_calendar">Grant calendar permission</string>
+    <string name="add_to_calendar">Add to calendar</string>
+    <string name="remove_calendar">Remove from calendar</string>
+    <string name="add_notification">Add notification</string>
+    <string name="remove_notification">Remove notification</string>
+    <string name="visit_website">Visit website</string>
+    <string name="share_friends">Sharing is fun</string>
+    <string name="sync_data">Refreshing contests data from web</string>
+
+    <string name="action_share">Share</string>
+
+    <string name="status">Status</string>
+    <string name="start_present">Start</string>
+    <string name="start_past">Started</string>
+    <string name="end_present">End</string>
+    <string name="end_past">Ended</string>
+
+    <string name="days">days</string>
+    <string name="hours">hours</string>
+    <string name="min">min</string>
+    <string name="sec">sec</string>
+
+    <string name="save">Save</string>
+
+    <string-array name="nav_menus">
+        <item>@string/nav_current</item>
+        <item>@string/nav_upcoming</item>
+        <item>@string/nav_past</item>
+        <item>@string/nav_settings</item>
+        <item>@string/nav_rate</item>
+        <item>@string/nav_feedback</item>
+    </string-array>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+
+
+    <string name="contentauthority" translatable="false">com.vivek.codemozo</string>
+    <string name="sync_account_type" translatable="false">com.vivek.codemozo</string>
+
+
+    <string name="nomatch">No Contests found!!</string>
+
+
+    <string name="contest_started">Contest &lt;b&gt;%1$s&lt;/b&gt; @ &lt;b&gt;%2$s&lt;/b&gt; already
+        started.
+    </string>
+    <string name="contest_ended">Contest &lt;b&gt;%1$s&lt;/b&gt; @ &lt;b&gt;%2$s&lt;/b&gt; already
+        ended.
+    </string>
+
+    <string name="fetch_contest_calendar_status">Please wait while we
+        fetch calendar event status for &lt;b&gt;%1$s&lt;/b&gt;.
+    </string>
+    <string name="fetch_contest_notification_status">Please wait while we
+        fetch notification status for &lt;b&gt;%1$s&lt;/b&gt;.
+    </string>
+    <string name="event_added_calendar">Event &lt;b&gt;%1$s&lt;/b&gt; added to your calendar.
+    </string>
+    <string name="calendar_permission_denied">Calendar Read/Write permission denied.
+    </string>
+    <string name="calendar_permission_granted">Calendar Read/Write permission granted.
+    </string>
+    <string name="no_calendar_account_found">No calendar accounts found!! Please login to
+        google calendar and try again
+    </string>
+
+    <string name="insert_event_error">&lt;b&gt;Error&lt;/b&gt; occurred in adding
+        &lt;b&gt;%1$s&lt;/b&gt; to your
+        calendar.
+    </string>
+    <string name="delete_event">Event &lt;b&gt;%1$s&lt;/b&gt; removed from your calendar.</string>
+    <string name="delete_event_error">&lt;b&gt;Error&lt;/b&gt; occurred in removing event
+        &lt;b&gt;%1$s&lt;/b&gt; from your
+        calendar.
+    </string>
+
+
+    <string name="insert_notification">Reminder notification added 1 hour before start of &lt;b&gt;%1$s&lt;/b&gt;</string>
+    <string name="insert_notification_error">&lt;b&gt;Error&lt;/b&gt; occurred in setting
+        reminder notification for &lt;b&gt;%1$s&lt;/b&gt;.
+    </string>
+    <string name="delete_notification">Reminder notification deleted for &lt;b&gt;%1$s&lt;/b&gt;</string>
+    <string name="delete_notification_error">&lt;b&gt;Error&lt;/b&gt; occurred in deleting
+        reminder notification for &lt;b&gt;%1$s&lt;/b&gt;</string>
+
+    <string name="notification_string">%1$s &lt;br>
+        Starts at &lt;b&gt;%2$s&lt;/b&gt;</string>
+
+    <string name="credits_info">Credits Info</string>
+    <string name="email_subject" translatable="false">Feedback on %1$s; version %2$s</string>
+    <string name="send_email">Send email using …</string>
+    <string name="no_playstore">Playstore app not found!!</string>
+    <string name="website_open_error">Unexpected error occurred in opening the website.</string>
+
+</resources>
