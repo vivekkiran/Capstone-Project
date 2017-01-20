@@ -13,8 +13,6 @@ import com.vivek.codemozo.events.ContestClickEvent;
 import com.vivek.codemozo.model.Contest;
 import com.vivek.codemozo.ui.activities.MainActivity;
 import com.vivek.codemozo.utils.Debug;
-import com.google.android.gms.analytics.HitBuilders;
-import com.google.android.gms.analytics.Tracker;
 
 import org.greenrobot.eventbus.EventBus;
 
@@ -22,13 +20,11 @@ import org.greenrobot.eventbus.EventBus;
 public abstract class BaseFragment extends Fragment {
 
     private Toast mToast;
-    Tracker mTracker;
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         CodeMozoApplication application = (CodeMozoApplication) getActivity().getApplication();
-        mTracker = application.getDefaultTracker();
     }
 
 
@@ -41,10 +37,7 @@ public abstract class BaseFragment extends Fragment {
         mToast.show();
     }
 
-    protected void trackFragment(String screenName) {
-        mTracker.setScreenName(screenName);
-        mTracker.send(new HitBuilders.ScreenViewBuilder().build());
-    }
+
 
     protected void showToast(int resId) {
         if (mToast != null) {

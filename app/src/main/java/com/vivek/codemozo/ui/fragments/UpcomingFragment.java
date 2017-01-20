@@ -21,7 +21,6 @@ import com.vivek.codemozo.db.entry.ContestEntry;
 import com.vivek.codemozo.sync.CodeMozoSyncAdapter;
 import com.vivek.codemozo.utils.DateUtils;
 import com.vivek.codemozo.utils.Debug;
-import com.vivek.codemozo.utils.TrackingConstants;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -62,7 +61,6 @@ public class UpcomingFragment extends BaseFragment {
     @Override
     public void onResume() {
         super.onResume();
-        trackFragment(TrackingConstants.FUTURE_FRAGMENT_SCREEN_NAME);
     }
 
     @Override

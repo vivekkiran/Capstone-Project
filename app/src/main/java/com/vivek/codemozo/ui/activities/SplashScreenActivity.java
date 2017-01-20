@@ -12,7 +12,6 @@ import android.widget.LinearLayout;
 
 import com.vivek.codemozo.R;
 import com.vivek.codemozo.utils.Debug;
-import com.vivek.codemozo.utils.TrackingConstants;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -93,7 +92,6 @@ public class SplashScreenActivity extends BaseActivity {
     @Override
     protected void onResume() {
         super.onResume();
-        trackActivity(TrackingConstants.SPLASH_ACTIVITY_SCREEN_NAME);
     }
 
     @Override

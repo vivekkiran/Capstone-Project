@@ -36,7 +36,6 @@ import com.vivek.codemozo.ui.fragments.SelectionFragment;
 import com.vivek.codemozo.ui.fragments.UpcomingFragment;
 import com.vivek.codemozo.utils.AppUtils;
 import com.vivek.codemozo.utils.Debug;
-import com.vivek.codemozo.utils.TrackingConstants;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
@@ -229,7 +228,6 @@ public class MainActivity extends BaseActivity implements
     @Override
     protected void onResume() {
         super.onResume();
-        trackActivity(TrackingConstants.LIST_ACTIVITY_SCREEN_NAME);
         EventBus.getDefault().register(this);
 
     }
