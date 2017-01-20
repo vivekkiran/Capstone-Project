@@ -6,8 +6,8 @@ def API_KEY;
 def API_USERNAME;
 
 
-API_KEY = '"c38e9afdff8f3e62a7ef1e287e6c4a382c270481"';
-API_USERNAME = '"vivekkiran"';
+API_KEY = '"API_KEY_HERE"';
+API_USERNAME = '"USER_NAME_HERE"';
 
 android {
     compileSdkVersion 25
